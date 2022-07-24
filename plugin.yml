@@ -1,0 +1,15 @@
+name: CustomForm
+main: FormAPI\Main
+author: Ryzwe
+api: 4.0.0
+version: 0.1
+commands:
+  customform:
+    description: §3Form
+    permission: customform.use
+    
+    
+permissions:
+  customform.use:
+    description: "Insufficient Authorization"
+    default: true
