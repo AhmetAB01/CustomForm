@@ -1,5 +1,5 @@
 name: CustomForm
-main: FormAPI\Main
+main: AhmetAB01\CustomForm\Main
 author: Ryzwe
 api: 4.0.0
 version: 0.1
