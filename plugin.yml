@@ -1,16 +1,11 @@
 name: CustomForm
+version: 0.1
 main: AhmetAB01\CustomForm\Main
-author: Ryzwe
 src-namespace-prefix: AhmetAB01\CustomForm
 api: 4.0.0
-version: 0.1
+Author: Ryzwe
 commands:
-  customform:
-    description: §3Form
-    permission: customform.use
-    
-    
-permissions:
+  permissions:
   customform.use:
     description: "Insufficient Authorization"
     default: true
