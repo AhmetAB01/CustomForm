@@ -12,14 +12,13 @@ use pocketmine\command\CommandSender;
 
 use jojoe77777\FormAPI\CustomForm;
 
-class Main extends PluginBase {
+class Main extends PluginBase{
     
-    public function onCommand(CommandSender $sender, Command $cmd, String $label, Array $args): bool {
+    public function onCommand(CommandSender $sender, Command $cmd, String $label, Array $args): bool{
         
         if($cmd->getName() == "customform"){
             $this->form($sender);
-        }
-        
+        }  
         return true;
     }
     public function form($player){
