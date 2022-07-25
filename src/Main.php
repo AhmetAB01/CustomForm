@@ -21,7 +21,7 @@ class Main extends PluginBase {
         }  
         return true;
     }
-    public function form($player){
+    public function form(Player $player){
         $dropdownMenu = ["Gamer 1", "Gamer 2"];
         $form = new CustomForm(function (Player $player, array $data){
             if($data === null){
