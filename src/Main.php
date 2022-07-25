@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace AhmetAB01\CustomForm;
 
 use pocketmine\Server;
